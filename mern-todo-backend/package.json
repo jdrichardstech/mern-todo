@@ -1,0 +1,31 @@
+{
+  "name": "mern-todo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "JD",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-json": "^1.4.0",
+    "nodemon": "^1.19.1"
+  }
+}
