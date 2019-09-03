@@ -34,6 +34,7 @@ Router.post('/add', (req, res) => {
 
 Router.post('/update/:id', (req, res) => {
   Todo.findById(req.params.id, (err, todo) => {
+    console.log('TodoFinder: ', todo);
     if (!todo) res.status(404).send('data not found');
     else todo.description = req.body.description;
     todo.responsible = req.body.responsible;
